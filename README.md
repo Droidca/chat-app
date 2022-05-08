@@ -1,72 +1,53 @@
 
-# Meet-Up
+# Chat-App
 
-Meet-Up is an app designed to display information about upcoming events in a city. The user will be able to choose a time and a city in the filter, so he can see the events for a specific city.
-The app will be able to be used offline, as long as the information is cached.
+Chat app is an app designed for mobile devices using React Native. The app will
+provide users with a chat interface and options to share images and their
+location.
+
 
 ## Tools
 
 - Javascript
-- React
-- gh-pages
-- Jest
-- Cucumber
+- React Native
+- Expo
+- Navigator
 
 ## Get Started
 
 
-- Clone the project ```https://github.com/Droidca/pokedex-app.git```
+- Clone the project ```https://github.com/Droidca/chat-app.git```
 - Open your terminal
 - cd to the project diretory
-- $npm run start
+- $npm install
+- After instalation, in order to run type on the same directory $expo start
 
 ## User Stories
-- As a user, I want to have a show/hide button, so I can show/hid an event’s details as I please.
-- As a user, I want to be able to decide how many events are shown, so I can have a better user experience while I search for events.
-- As a user, I want to be able to use the app offline, so I can verify the available events, even when I don‘t have internet connection.
-- As a user I want to have access to a chart, so I can consult how many events are in each city.
+-As a new user, I want to be able to easily enter a chat room so I can quickly start talking to my
+friends and family.
+- As a user, I want to be able to send messages to my friends and family members to exchange
+the latest news.
+- As a user, I want to send images to my friends to show them what I’m currently doing.
+- As a user, I want to share my location with my friends to show them where I am.
+- As a user, I want to be able to read my messages offline so I can reread conversations at any
+time.
+- As a user with a visual impairment, I want to use a chat app that is compatible with a screen
+reader so that I can engage with a chat interface.
 
-## Scenarios
-
-- FEATURE 1: FILTER EVENTS BY CITY
-- Scenario 1: When user hasn’t searched for a city, show upcoming events from all cities.
-- Scenario 2: User should see a list of suggestions when they search for a city.
-- Scenario 3: User can select a city from the suggested list.
-
-- FEATURE 2: SHOW/HIDE AN EVENT’S DETAILS
-- Scenario 1: An event element is collapsed by default.
-- Scenario 2: User can expand an event to see its details.
-- Scenario 3: User can collapse an event to hide its details.
-
-- FEATURE 3: SPECIFY NUMBER OF EVENTS
-- Scenario 1: When user hasn’t specified a number, 32 is the default number.
-- Scenario 2: User can change the number of events they want to see.
-
-- FEATURE 4: USE THE APP WHEN OFFLINE
-- Scenario 1: Show cached data when there’s no internet connection.
-- Scenario 2: Show error when user changes the settings (city, time range).
-
-- FEATURE 5: DATA VISUALIZATION
-- Scenario 1: Show a chart with the number of upcoming events in each city.
 
 ## Key Features
-- Filter events by city.
-- Show/hide event details.
-- Specify number of events.
-- Use the app when offline.
-- Add an app shortcut to the home screen.
-- View a chart showing the number of upcoming events by city.
+- A page where users can enter their name and choose a background color for the chat screen
+before joining the chat.
+- A page displaying the conversation, as well as an input field and submit button.
+- The chat must provide users with two additional communication features: sending images
+and location data.
+- Data gets stored online and offline.
 
-## Deployment and Demo
+## Deployment
 
-
-To deploy this project run
-
-```bash
-  npm run deploy
-```
+Not Yet Available
 
 
 ## Demo
 
-### <a href="https://droidca.github.io/meet-up/">LIVE DEMO</a> 
+Not Yet Available
