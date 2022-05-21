@@ -43,11 +43,11 @@ before joining the chat.
 and location data.
 - Data gets stored online and offline.
 
-## Deployment
+## How to Run the App
 
-Not Yet Available
+- Navigate to root folder
+- Run expo start via terminal
+- Install Expo Go through the app store andscan the QR Code displayed on command line. Select the scanned app to run it
+- The user can instead use Android Studo or Xcode to run in an emulated environment
 
 
-## Demo
-
-Not Yet Available
